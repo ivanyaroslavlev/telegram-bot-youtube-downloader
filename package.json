@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot-youtube-downloader",
+  "version": "1.0.0",
+  "description": "Telegram bot for download youtube videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanyaroslavlev/telegram-bot-youtube-downloader.git"
+  },
+  "author": "Ivan Yaroslavlev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanyaroslavlev/telegram-bot-youtube-downloader/issues"
+  },
+  "homepage": "https://github.com/ivanyaroslavlev/telegram-bot-youtube-downloader#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0",
+    "youtube-dl": "^3.0.2"
+  }
+}
